@@ -49,7 +49,6 @@ const CreatePost = () => {
         headers: { accept: "application/json"}
     })
     .then((response) => {
-        console.log(response.data)
         inputRef.current.value = "";
         dispatch(addPost(response.data))
         handleDeleteImageToPost(); 

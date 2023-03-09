@@ -2,9 +2,9 @@ import React from "react";
 import { AiFillMessage } from "react-icons/ai";
 import { FcVideoCall } from "react-icons/fc";
 
-const Contact = ({ name, src, status }) => {
+const Contact = ({ name, src, status, id }) => {
   return (
-    <div className="flex flex-row pb-1 pt-2 border-b-2 border-cyan-900 cursor-pointer hover:bg-[#339bae] rounded-t-md space-x-1">
+    <div className="flex flex-row pb-1 pt-2 border-b-2 cursor-pointer hover:bg-[#339bae] rounded-md space-x-1">
       <div className="flex">
         <div className="relative w-8 h-8">
           <img

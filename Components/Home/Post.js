@@ -4,7 +4,7 @@ import { FcLike } from "react-icons/fc";
 
 const Post = ({ post }) => {
   return (
-    <div className="flex flex-col shadow-md" key={post.id}>
+    <div className="flex flex-col shadow-md">
       <div className="bg-white mt-6 rounded-md p-4">
         <div className="flex items-center space-x-2">
           <img className="rounded-full w-10 h-10" src={post.profilePicture} />
